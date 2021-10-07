@@ -545,7 +545,8 @@ img {
   font-weight: 1.56;
 }
 
-.projects-link:hover .projects-overlay {
+.projects-link:hover .projects-overlay,
+.projects-link:focus .projects-overlay {
   transform: translateY(0);
 }
 
